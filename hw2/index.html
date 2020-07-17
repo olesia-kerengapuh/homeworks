@@ -12,9 +12,7 @@
 
 <script>
 
-
-
-
+// Калькулятор
 
 var x = prompt("1е число");
  var operation = prompt(" + - * или / ");
@@ -24,15 +22,15 @@ var x = prompt("1е число");
   resalt = x+y;
   alert("Результат сложения: " + (+x+ +y));
  }
- if (operation == '-') {
+ else if (operation == '-') {
   resalt = x-y;
   alert("Результат вычитания: " + (+x+ -y));
  }
- if (operation == '*') {
+ else if (operation == '*') {
   resalt = x*y;
   alert("Результат умножения: " + (x*y));
  }
-  if (operation == '/') {
+  else if (operation == '/') {
   resalt = x/y;
   alert("Результат деления: " + (x/y));
  }
@@ -42,21 +40,7 @@ else{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 </script>
-
-
-
 
 </body>
 </html>
